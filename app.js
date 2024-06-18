@@ -25,8 +25,8 @@ function handleFile(event) {
 }
 
 function searchShopify(barcode) {
-    const apiKey = '798826fbbb3b39913c1b53b4b541f906';
-    const password = '6032deb316c82d985d4c30c963e7b7e0';
+    const apiKey = 'APIKEY';
+    const password = 'PASSWORD';
     const shopName = 'repurposed-gallery';
 
     fetch(`https://${apiKey}:${password}@${shopName}.myshopify.com/admin/api/2021-01/products.json?barcode=${barcode}`)
